@@ -4,12 +4,12 @@
  * @s: input
  * Return: Always 0 (Success)
  */
-void _puts_recursion(char *v)
+void _puts_recursion(char *s)
 {
-	if (*v)
+	if (*s)
 	{
-		_putchar(*v);
-		_puts_recursion(v + 1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
 
 	else
