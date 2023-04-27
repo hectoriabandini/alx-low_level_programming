@@ -2,10 +2,10 @@ OCDME.md
 
  - Singly linked lists
 
-Tests ✔️
+Tests :
 * Tests: This Directory is for tests purposes.
 
-Header File 📁
+Header File:
 * lists.h: Header file containing definitions and prototypes for all types and functions written for the project.
 Type/File	Definition/Prototype
 * struct list_s		•	char *str
@@ -18,7 +18,7 @@ typedef list_t	struct list_s
 3-add_node_end.c	list_t *add_node_end(list_t **head, const char *str);
 4-free_list.c	void free_list(list_t *head)
 
-Tasks 📃
+Tasks:
 * 0. Print list
     * 0-print_list.c: C function that prints all the elements of a list_t list.
         * If str is NULL, the function prints [0] (nil).
