@@ -6,7 +6,8 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *temp = NULL;
 
 	while (*h != NULL) {
-		if (*h <= (*h)->next) {  // check for cycle
+		if (*h <= (*h)->next) 
+		{
 			temp = (*h)->next;
 			(*h)->next = NULL;
 			free(*h);
