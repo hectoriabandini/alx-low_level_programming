@@ -1,13 +1,3 @@
-# Makefile for the "school" executable
-
-# Define the source files and the name of the executable
-SRC = main.c school.c
-EXECUTABLE = school
-
-# Define the "all" rule to build the executable
-all:
-    gcc $(SRC) -o $(EXECUTABLE)
-
-# Define a "clean" rule to remove the executable
-clean:
-    rm -f $(EXECUTABLE)
+all: main.c school.c
+	gcc main.c school.c -o school
+	
